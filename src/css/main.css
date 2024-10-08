@@ -130,6 +130,13 @@ img {
   .hero {
     background-image: url(../img/hero/background-tablet.jpg);
   }
+}
+@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/hero/background-tablet@2x.jpg);
+  }
+}
+@media (min-width: 768px) {
   .hero__container {
     gap: 35px;
   }
@@ -147,7 +154,7 @@ img {
 }
 @media (min-width: 991px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 991px) and (min-resolution: 2dppx), (min-width: 991px) and (min-resolution: 192dpi), (min-width: 991px) and (min-device-pixel-radio: 2) {
   .hero {
-    background-image: url(../img/hero/background-desktop.jpg@2x);
+    background-image: url(../img/hero/background-desktop@2x.jpg);
   }
 }
 .button {

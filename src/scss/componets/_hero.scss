@@ -39,7 +39,11 @@
 @media (min-width: 768px) {
   .hero {
     background-image: url(../img/hero/background-tablet.jpg);
+    @media (min-resolution: 2dppx) {
+      background-image: url(../img/hero/background-tablet@2x.jpg);
+    }
   }
+
   .hero__container {
     gap: 35px;
   }
@@ -56,7 +60,7 @@
     @media (min-resolution: 2dppx),
       (min-resolution: 192dpi),
       (min-device-pixel-radio: 2) {
-      background-image: url(../img/hero/background-desktop.jpg@2x);
+      background-image: url(../img/hero/background-desktop@2x.jpg);
     }
   }
 }
